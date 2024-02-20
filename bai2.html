@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            width: 300px;
+            margin: 0 auto;
+            padding:  10px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgb(202, 71, 137);
+            background-color: rgb(191, 222, 224);
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data" class="form">
+        Họ Và Tên: <br>
+        <input type="text"> <br>
+        Giới tính: <label for="">
+            <input type="radio" checked="checked" name="gender"> Nam
+        </label>
+        <label for="">
+            <input type="radio" name="gender"> Nữ
+        </label><br>
+        Hình ảnh: <br>
+        <input type="file" value="choose file"> <br>
+        Quốc Tịch: <br>
+        <select name="list" id="list">
+            <option value="Việt Nam">Việt Nam</option>
+            <option value="Hàn Quốc">Hàn Quốc</option>
+            <option value="Nhật Bản">Nhạt Bản</option>
+            <option value="Trung Quốc">Trung Quốc</option>
+        </select><br>
+        Sở Thích: <br>
+        <label for=""><input type="checkbox">Thể Thao</label>
+        <label for=""><input type="checkbox">Du lịch</label>
+        <label for=""><input type="checkbox">Âm Nhạc</label>
+        <label for=""><input type="checkbox">Ẩm thực</label><br>
+
+        Ghi chú: <br>
+        <textarea name="ghichu" id="" cols="30" rows="10"></textarea><br>
+        <hr>
+        <input type="submit" value="Đăng Ký">
+        <input type="reset" value="Nhập Lại">
+    </form>
+</body>
+</html>
